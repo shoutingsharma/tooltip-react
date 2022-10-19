@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Tooltip from "./tooltip";
 const Button =() =>{
-    const [flag,setFlag]=useState(true);
+    const [flag,setFlag]=useState(false);
     const position =['top','bottom','left','right'];
     const count=Math.floor(Math.random()*4)
      

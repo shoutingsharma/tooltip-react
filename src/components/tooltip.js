@@ -7,6 +7,7 @@ function Tooltip(props){
     return(
     <div className={pos}>
         Thanks for hovering!i am a tooltip..
+        
 </div>
     )
 }
